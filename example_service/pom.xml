@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>example</artifactId>
+        <groupId>com.saber</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>example_service</artifactId>
+
+    <properties>
+        <com.saber.example_core.version>0.0.1-SNAPSHOT</com.saber.example_core.version>
+        <com.saber.example_dao.version>0.0.1-SNAPSHOT</com.saber.example_dao.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.saber</groupId>
+            <artifactId>example_core</artifactId>
+            <version>${com.saber.example_core.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.saber</groupId>
+            <artifactId>example_dao</artifactId>
+            <version>${com.saber.example_dao.version}</version>
+        </dependency>
+    </dependencies>
+
+
+</project>

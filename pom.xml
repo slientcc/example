@@ -6,7 +6,13 @@
 	<groupId>com.saber</groupId>
 	<artifactId>example</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<modules>
+		<module>example_dao</module>
+		<module>example_core</module>
+		<module>example_api</module>
+		<module>example_service</module>
+	</modules>
+	<packaging>pom</packaging>
 
 	<name>example</name>
 	<description>标准模块化项目构建</description>

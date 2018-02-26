@@ -20,11 +20,6 @@
     <dependencies>
         <dependency>
             <groupId>com.saber</groupId>
-            <artifactId>example_core</artifactId>
-            <version>${com.saber.example_core.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.saber</groupId>
             <artifactId>example_service</artifactId>
             <version>${com.saber.example_service.version}</version>
         </dependency>

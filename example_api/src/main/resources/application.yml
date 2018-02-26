@@ -2,7 +2,7 @@ spring:
   profiles:
     active: release
 server:
-  port: 12034
+  port: 12333
 mybatis:
     configuration:
       map-underscore-to-camel-case: true

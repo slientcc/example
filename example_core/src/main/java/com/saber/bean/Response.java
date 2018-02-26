@@ -1,12 +1,9 @@
 package com.saber.bean;
 
-import org.springframework.stereotype.Component;
-
 /**
  * @author saber
  * @
  */
-@Component
 public class Response<T> {
 
     private static final int SUCCESS = 200;

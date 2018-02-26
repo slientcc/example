@@ -2,28 +2,27 @@ spring:
   profiles:
     active: release
 server:
-  port: 12001
+  port: 12034
 mybatis:
-    mapper-locations: classpath:mybatis/sqlmap/*.xml
     configuration:
       map-underscore-to-camel-case: true
 logging:
-  path: /usr/local/tomcat/logs/fengting_manage
+  path: /usr/local/tomcat/logs/example
 ---
 #dev
 spring:
   profiles: dev
   datasource:
-    url: jdbc:mysql://120.26.54.102:3306/fengtingdb?useUnicode=true&characterEncoding=utf8&useSSL=false&useAffectedRows=true
+    url: jdbc:mysql://47.52.105.7:3306/saberdb?useUnicode=true&characterEncoding=utf8&useSSL=false&useAffectedRows=true
     username: root
-    password: xunbo2017
+    password:
 
 ---
 #release
 spring:
   profiles: release
   datasource:
-    url: jdbc:mysql://121.40.79.24:3306/fengtingdb?useUnicode=true&characterEncoding=utf8&useSSL=false&useAffectedRows=true
+    url: jdbc:mysql://47.52.105.7:3306/saberdb?useUnicode=true&characterEncoding=utf8&useSSL=false&useAffectedRows=true
     username: root
-    password: fengting123
+    password:
 

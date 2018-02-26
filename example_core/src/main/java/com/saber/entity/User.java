@@ -1,6 +1,5 @@
-package entity;
+package com.saber.entity;
 
-import com.google.common.base.Joiner;
 import com.google.common.base.MoreObjects;
 
 /**

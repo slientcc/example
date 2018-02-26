@@ -11,8 +11,22 @@
 
     <artifactId>example_dao</artifactId>
 
-    <dependencies>
+    <properties>
+        <com.saber.example_core.version>0.0.1-SNAPSHOT</com.saber.example_core.version>
+    </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.saber</groupId>
+            <artifactId>example_core</artifactId>
+            <version>${com.saber.example_core.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>1.3.1</version>
+        </dependency>
     </dependencies>
 
 

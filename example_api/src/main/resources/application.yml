@@ -1,6 +1,9 @@
 spring:
   profiles:
     active: release
+  redis:
+    password: saberedis
+    host: 47.52.105.7
 server:
   port: 12333
 mybatis:

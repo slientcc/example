@@ -1,0 +1,7 @@
+Spring REST Docs 文档生成测试
+
+.request
+include::{snippets}/home/http-request.adoc[]
+
+.response
+include::{snippets}/home/http-response.adoc[]

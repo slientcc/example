@@ -4,8 +4,13 @@ spring:
   redis:
     password: saberedis
     host: 47.52.105.7
+  security:
+    user:
+      name: saber
+      password: lion
 server:
   port: 12333
+
 mybatis:
     configuration:
       map-underscore-to-camel-case: true
